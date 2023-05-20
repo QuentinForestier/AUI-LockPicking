@@ -6,6 +6,9 @@ public class Game : MonoBehaviour
 {
     private bool kitCollected;
 
+    [SerializeField]
+    private LPLockpicking lockPick;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +25,7 @@ public class Game : MonoBehaviour
     {
         Debug.Log("[Game] CollectKit");
         obj.SetActive(false);
-        kitCollected = true;    
+        kitCollected = true;
+        lockPick.sweetspotRange = 30;
     }
 }

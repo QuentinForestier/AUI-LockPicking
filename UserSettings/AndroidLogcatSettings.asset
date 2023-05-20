@@ -3,75 +3,147 @@
     "m_SelectedPackage": {
         "deviceId": "890c27f0",
         "name": "com.DefaultCompany.AUILockPicking",
-        "processId": 31238,
+        "processId": 7954,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
-            "deviceId": "890c27f0",
+            "deviceId": "RZCT60AHNGT",
             "name": "com.DefaultCompany.AUILockPicking",
-            "processId": 23438,
+            "processId": 3832,
+            "exited": true
+        },
+        {
+            "deviceId": "RZCT60AHNGT",
+            "name": "com.sec.android.app.launcher",
+            "processId": 2392,
+            "exited": false
+        },
+        {
+            "deviceId": "RZCT60AHNGT",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 5231,
             "exited": false
         },
         {
             "deviceId": "890c27f0",
             "name": "com.DefaultCompany.AUILockPicking",
-            "processId": 24792,
+            "processId": 8874,
             "exited": false
         },
         {
             "deviceId": "890c27f0",
             "name": "com.DefaultCompany.AUILockPicking",
-            "processId": 26062,
+            "processId": 11672,
             "exited": false
         },
         {
             "deviceId": "890c27f0",
             "name": "com.DefaultCompany.AUILockPicking",
-            "processId": 27192,
+            "processId": 12677,
             "exited": false
         },
         {
             "deviceId": "890c27f0",
             "name": "com.DefaultCompany.AUILockPicking",
-            "processId": 31425,
+            "processId": 14751,
             "exited": false
         },
         {
             "deviceId": "890c27f0",
             "name": "com.DefaultCompany.AUILockPicking",
-            "processId": 31851,
+            "processId": 15892,
             "exited": false
         },
         {
             "deviceId": "890c27f0",
             "name": "com.DefaultCompany.AUILockPicking",
-            "processId": 24245,
+            "processId": 16949,
             "exited": false
         },
         {
             "deviceId": "890c27f0",
             "name": "com.DefaultCompany.AUILockPicking",
-            "processId": 25828,
+            "processId": 17642,
             "exited": false
         },
         {
             "deviceId": "890c27f0",
             "name": "com.DefaultCompany.AUILockPicking",
-            "processId": 27403,
+            "processId": 20799,
             "exited": false
         },
         {
             "deviceId": "890c27f0",
             "name": "com.DefaultCompany.AUILockPicking",
-            "processId": 29742,
+            "processId": 21950,
             "exited": false
         },
         {
             "deviceId": "890c27f0",
             "name": "com.DefaultCompany.AUILockPicking",
-            "processId": 31238,
+            "processId": 24975,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 26833,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 27808,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 28687,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 29437,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 30312,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 32137,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 1018,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 3375,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 6425,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 7954,
             "exited": false
         }
     ],
@@ -126,7 +198,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "",
+        "m_Filter": "[Angle",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },
