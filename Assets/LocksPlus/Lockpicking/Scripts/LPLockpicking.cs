@@ -63,6 +63,9 @@ public class LPLockpicking : MonoBehaviour
     public void Start()
     {
         if (activator == null) Activate(null);
+
+        Input.gyro.enabled = true;
+        Input.gyro.updateInterval = 0.0167f;
     }
 
     public void Update()
@@ -83,8 +86,11 @@ public class LPLockpicking : MonoBehaviour
                 lockpick.eulerAngles = Vector3.forward * 180 * Mathf.Clamp((Input.mousePosition.x / Screen.width), 0.01f, 0.99f);
             }
 
-            lockpick.eulerAngles = Vector3.forward * Mathf.Clamp(lockpick.eulerAngles.z, 0, 180);
-            
+
+            Debug.Log("[Angle] : " + Input.gyro.attitude.eulerAngles.z);
+            lockpick.eulerAngles = Vector3.forward * Mathf.Clamp(Input.gyro.attitude.eulerAngles.z, 0, 180);//Vector3.forward * Mathf.Clamp(lockpick.eulerAngles.z, 0, 180);
+            Debug.Log("[Angle] After: " + lockpick.eulerAngles);
+
             // If we are close enough to the sweetspot area, we are in the sweetspot!
             if (Mathf.Abs(sweetspotAngle - lockpick.eulerAngles.z) < sweetspotRange)
             {

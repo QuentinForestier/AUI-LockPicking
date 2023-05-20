@@ -20,11 +20,30 @@ public class PadlockManager : MonoBehaviour
         translate.enabled = false;
     }
 
+    public void OnStopMoving()
+    {
+        if (translate.enabled)
+        {
+            GetComponent<Rigidbody>().isKinematic = false;
+
+            Invoke("RemoveLock", 3);
+        }
+
+
+    }
+
+
+    private void RemoveLock()
+    {
+        gameObject.SetActive(false);
+    }
+
     // Update is called once per frame
     public void onWin()
     {
         
         translate.enabled = true;
+        transform.GetChild(0).transform.localPosition += new Vector3(0, 0.015f, 0);
         Debug.Log("[Lock] isResolved");
         
     }

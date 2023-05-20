@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "RZCT60AHNGT",
+    "m_SelectedDeviceId": "890c27f0",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "890c27f0",
+        "name": "com.DefaultCompany.AUILockPicking",
+        "processId": 7954,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -24,6 +24,126 @@
             "deviceId": "RZCT60AHNGT",
             "name": "com.DefaultCompany.AUILockPicking",
             "processId": 5231,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 8874,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 11672,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 12677,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 14751,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 15892,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 16949,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 17642,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 20799,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 21950,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 24975,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 26833,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 27808,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 28687,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 29437,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 30312,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 32137,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 1018,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 3375,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 6425,
+            "exited": false
+        },
+        {
+            "deviceId": "890c27f0",
+            "name": "com.DefaultCompany.AUILockPicking",
+            "processId": 7954,
             "exited": false
         }
     ],
@@ -78,7 +198,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "refere",
+        "m_Filter": "[Angle",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },
