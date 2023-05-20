@@ -78,7 +78,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "[Lock]",
+        "m_Filter": "refere",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },

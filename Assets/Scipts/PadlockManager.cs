@@ -5,40 +5,35 @@ using Lean.Touch;
 
 public class PadlockManager : MonoBehaviour
 {
-    [SerializeField]
-    public bool isResolved = false;
 
-    LeanDragTranslate translate;
+    public LeanDragTranslate translate;
 
-    LPLockpicking doorLock;
+    public LPLockpicking doorLock;
 
+    public LPLockActivator activatorSource;
     // Start is called before the first frame update
     void Start()
     {
         Debug.Log("[Lock] Started");
         transform.position = transform.parent.transform.position;
         transform.rotation = Quaternion.Euler(90, 0, 0);
-        isResolved = false;
-        translate = GetComponent<LeanDragTranslate>();
-        doorLock = GetComponentInParent<LPLockpicking>();
         translate.enabled = false;
     }
 
     // Update is called once per frame
-    void Update()
+    public void onWin()
     {
-        if (isResolved) {
-            translate.enabled = true;
-            Debug.Log("[Lock] isResolved");
-        }
+        
+        translate.enabled = true;
+        Debug.Log("[Lock] isResolved");
+        
     }
 
     // Update is called once per frame
     public void OnTap ()
     {
-        if (!isResolved)
-        {
-            doorLock.Activate(this);
-        }
+        Debug.Log("[Lock] Tap");
+        doorLock.gameObject.SetActive(true);
+        doorLock.Activate(activatorSource);
     }
 }
